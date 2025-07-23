@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "description": "",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "test:unit": "vitest"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,9 @@
   },
   "homepage": "https://github.com/fessracha/yandex-metrica-ab-vue#readme",
   "devDependencies": {
-    "typescript": "^5.8.3"
+    "jsdom": "^26.1.0",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
   },
   "peerDependencies": {
     "vue": "^3.5.13",
