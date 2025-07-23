@@ -1,0 +1,22 @@
+{
+  "name": "yandex-metrica-ab-vue",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fessracha/yandex-metrica-ab-vue.git"
+  },
+  "author": "Eugene Shangin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fessracha/yandex-metrica-ab-vue/issues"
+  },
+  "homepage": "https://github.com/fessracha/yandex-metrica-ab-vue#readme",
+  "dependencies": {
+    "typescript": "^5.8.3"
+  }
+}
