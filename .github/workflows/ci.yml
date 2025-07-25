@@ -30,7 +30,7 @@ jobs:
         run: npx tsc --noEmit
 
       - name: Run tests
-        run: npm test:unit
+        run: npm run test:unit
 
       - name: Build app
         run: npm run build
