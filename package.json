@@ -1,0 +1,43 @@
+{
+  "name": "yandex-metrica-ab-vue",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc",
+    "test:unit": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fessracha/yandex-metrica-ab-vue.git"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "./dist"
+  ],
+  "author": "Eugene Shangin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fessracha/yandex-metrica-ab-vue/issues"
+  },
+  "homepage": "https://github.com/fessracha/yandex-metrica-ab-vue#readme",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.4",
+    "@vue/test-utils": "^2.4.6",
+    "jsdom": "^26.1.0",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
+  },
+  "keywords": [
+    "vue",
+    "metrica",
+    "metrika",
+    "yandex",
+    "ab",
+    "varioqub"
+  ],
+  "peerDependencies": {
+    "vue": "^3.5.13",
+    "vue-router": "^4.4.0"
+  }
+}
