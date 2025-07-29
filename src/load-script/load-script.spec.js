@@ -20,12 +20,12 @@ describe('loadScript unit test', () => {
     createElementSpy.mockRestore();
   });
 
-  it('не добавляет скрипт, если ymab уже есть в window', () => {
+  it('does not add script if ymab already exists in window', () => {
     loadScript();
     expect(createElementSpy).not.toHaveBeenCalled();
   });
 
-  it('добавляет скрипт, если ymab отсутствует', () => {
+  it('add script if ymab is missing', () => {
     delete window.ymab;
     const fakeParent = document.createElement('div');
     fakeParent.insertBefore = vi.fn();

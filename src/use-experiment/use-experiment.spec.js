@@ -21,7 +21,7 @@ describe('useExperiment', () => {
     vi.clearAllMocks();
   });
 
-  it('initializeVarioqub: должен зарегестрировать router хук', () => {
+  it('initializeVarioqub: should register a router hook', () => {
     const params = {
       clientId: 'test-client',
       param: 'test-param',
@@ -33,7 +33,7 @@ describe('useExperiment', () => {
     expect(routerBeforeEachMock).toHaveBeenCalled();
   });
 
-  it('initializeVarioqub: Проверка корректности вызова ymab', () => {
+  it('initializeVarioqub: сhecks the correctness of ymab call', () => {
     const params = {
       clientId: 'test-client',
       param: 'test-param',
